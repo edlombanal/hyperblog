@@ -5,6 +5,12 @@ body {
   color: blueviolet;
   margin: 0;
   padding: 0;
+  background-color: darkgray;
+}
+
+img {
+  width: 100px;
+  height: auto;
 }
 
 #header {
@@ -28,6 +34,7 @@ body {
   text-align: left;
   border: 1px solid rgb(105, 99, 89);
   margin: 0 auto;
+  background-color: antiquewhite;
 }
 
 #container h1 {
