@@ -44,3 +44,11 @@ img {
 #post {
   padding: 1em;
 }
+
+#footer {
+  text-align: center;
+  color: aquamarine;
+  font-weight: bolder;
+  background-color: darkblue;
+  padding: 20px;
+}
