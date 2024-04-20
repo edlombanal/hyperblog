@@ -13,6 +13,14 @@ img {
   height: auto;
 }
 
+.container,
+.container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
 #header {
   background: teal;
   box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.5);
@@ -21,6 +29,16 @@ img {
   font-size: xx-large;
   margin: 0;
   padding: 0.5em;
+}
+
+img {
+  padding: 0px 5px;
+}
+
+#header-inside {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 #header #tagline {
